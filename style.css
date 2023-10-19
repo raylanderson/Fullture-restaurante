@@ -165,3 +165,36 @@ footer {
     justify-content: space-evenly;
     align-items: flex-end;
 }
+
+.most-orded-item-description {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 4%;
+}
+
+.most-orded-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.most-orded {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    padding: 2% 6%;
+}
+
+.entries {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    padding: 2% 6%;
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffcc80;
+    text-align: end;
+}
