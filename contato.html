@@ -13,6 +13,13 @@
 <link href="https://fonts.google.com/specimen/Pacifico?query=paci" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailsjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+    emailjs.init("user_0ndQVqZMG9nIkykpFG8dI");
+})();
+</script>
+
 </head>
 <body>
     <nav class="navbar">
@@ -79,7 +86,7 @@
                     <textarea style="height: 200px;" id="msg" placeholder="MENSSAGEM"></textarea>
                 </div>
                 <div class="button">
-                    <button type="submit">ENVIAR</button>
+                    <button type="submit" onclick="submitMessage();">ENVIAR</button>
                 </div>
             </form>
         </div>
@@ -125,5 +132,7 @@
         </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
