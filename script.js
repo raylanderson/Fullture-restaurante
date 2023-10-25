@@ -19,7 +19,7 @@ function sendEmail(nome, telefone, assunto, msg) {
         msg: msg
     }
 
-    emailjs.send('service_italian_bistro', 'template_w1cbyne', params)
+    emailjs.send('service_italian_bistro', 'template_vwqyi5f', params)
         .then(function(response){
             console.log('SECCESS!!', response.status, response.text);
         }, function(error){
